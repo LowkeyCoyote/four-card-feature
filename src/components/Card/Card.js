@@ -22,13 +22,13 @@ const Card = (props) => {
     }
 
     return (
-        <article className="card" style={cssBorderTop}>
+        <div className="card" style={cssBorderTop}>
             <h2>{props.cardTitle}</h2>
             <p>{props.cardText}</p>
             <div className="card-image">
                 <img src={props.cardImage} alt="image"/>
             </div>
-        </article>
+        </div>
     )
 
 };
