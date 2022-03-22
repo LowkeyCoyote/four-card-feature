@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "../Card/Card";
-import "./fourCardFeature.css";
+import "./cardGrid.css";
 import imageSupervisor from "../../assets/images/icon-supervisor.svg"
 import imageTeamBuilder from "../../assets/images/icon-team-builder.svg"
 import imageKarma from "../../assets/images/icon-karma.svg"
 import imageCalculator from "../../assets/images/icon-calculator.svg"
 
-const FourCardFeature = (props) => {
+const CardGrid = (props) => {
         return (
             <div className="container">
                 <header>
@@ -44,5 +44,5 @@ const FourCardFeature = (props) => {
 
     }
 ;
-export default FourCardFeature;
+export default CardGrid;
 
