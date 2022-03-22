@@ -23,7 +23,7 @@ const Card = (props) => {
 
     return (
         <article className="card" style={cssBorderTop}>
-            <h3>{props.cardTitle}</h3>
+            <h2>{props.cardTitle}</h2>
             <p>{props.cardText}</p>
             <div className="card-image">
                 <img src={props.cardImage} alt="image"/>
